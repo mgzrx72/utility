@@ -822,8 +822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b7df934296f1e4ca22f7500ae45d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a: 01-Truth_
-  b: 02-CODING
+  a: Cool_Fight
+  b: Cyborg
 --- !u!4 &1855757252
 Transform:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f0311b2a75a704096677d67b1a42af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetVolume: 0.808
+  TargetVolume: 1
   TimeToFade: 2
   CrossFadeRatio: 1
   MaxSE: 0

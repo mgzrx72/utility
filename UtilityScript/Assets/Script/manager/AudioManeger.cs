@@ -193,7 +193,8 @@ public class AudioManeger : SingletonMonoBehaviour<AudioManeger>
             }
 
             float rate = spentTime / timeToFade;
-            float vol = Mathf.Lerp(fromVolume, toVolume, rate);
+            float //vol = Mathf.Lerp(fromVolume, toVolume, rate);
+            vol =Mathf.Pow( Mathf.Sin(rate * (Mathf.PI / 2)),2);
             bgm.volume = vol;
             yield return null;
         }
@@ -220,7 +221,8 @@ public class AudioManeger : SingletonMonoBehaviour<AudioManeger>
             }
 
             float rate = spentTime / timeToFade;
-            float vol = Mathf.Lerp(fromVolume, toVolume, rate);
+            float //vol = Mathf.Lerp(fromVolume, toVolume, rate);
+            vol =Mathf.Pow( Mathf.Cos(rate * (Mathf.PI / 2)),2);
             bgm.volume = vol;
             yield return null;
         }
